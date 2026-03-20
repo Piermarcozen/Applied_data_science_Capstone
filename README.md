@@ -1,30 +1,32 @@
-Final Project Overview - Applied data science
-The final task of this capstone project is to create a presentation that summarizes the results of all tasks completed in the previous modules and labs. The presentation should tell a clear and engaging story of your data science journey throughout the project and be easy to follow.
+# SpaceX Launch Data Analysis - Applied Data Science Capstone
 
-In the next exercise, a PowerPoint template will be provided to help you begin creating your slide-based report; however, you may add additional slides, charts, and tables as needed.
+## 📁 Repository Structure
 
-This presentation is expected to be more detailed and technical than a typical high-level presentation intended for an executive audience.
+| File | Description |
+|------|-------------|
+| `01_spacex_api_collection.ipynb` | Data collection via SpaceX API |
+| `02_spacex_web_scraping.ipynb` | Web scraping from Wikipedia |
+| `03_spacex_data_wrangling.ipynb` | Data cleaning and preparation |
+| `04_spacex_eda_visualization.ipynb` | Exploratory Data Analysis with visualizations |
+| `05_spacex_eda_sql.ipynb` | SQL queries analysis |
+| `06_spacex_folium_map.ipynb` | Interactive maps with Folium |
+| `07_spacex_dash_dashboard.ipynb` | Interactive dashboard with Plotly Dash |
+| `08_spacex_ml_models.ipynb` | Machine Learning classification models |
 
-After completing the detailed report, you should be able to easily condense it into a high-level presentation for executives and other stakeholders.
+## 📊 Datasets
+- `dataset_part_1.csv` - Raw SpaceX launch data
+- `dataset_part_2.csv` - Data with landing_class column
+- `dataset_part_3.csv` - One-hot encoded features
+- `spacex_launch_geo.csv` - Launch sites with coordinates
+- `spacex_web_scraped.csv` - Web scraped data
 
-Once you have completed the PowerPoint presentation, it must be converted to PDF format before submission.
+## 📸 Screenshots
+- Dashboard screenshots included
 
-The final assignment includes one question worth 15 points and will be evaluated based on completeness, accuracy, clarity, and overall presentation quality.
+## 🔗 Key Results
+- **Best performing model**: Decision Tree (83.33% test accuracy)
+- **Highest success rate site**: CCSFS SLC 40 (74.5%)
+- **Best payload range**: 0-1000 kg (100% success)
 
-The main grading will be based on the PDF presentation you have uploaded, which should include the following components:
-
-    A link to your GitHub repository containing all completed notebooks and Python files (1 pt)
-    The completed presentation submitted in PDF format (1 pt)
-    Executive Summary slide (1 pt)
-    Introduction slide (1 pt)
-    Data collection and data wrangling methodology slides (1 pt)
-    EDA and interactive visual analytics methodology slides (1 pt)
-    Predictive analysis methodology slides (1 pt)
-    EDA with visualization results slides (1 pt)
-    EDA with SQL results slides (1 pt)
-    Interactive map results using Folium (1 pt)
-    Plotly Dash dashboard results slides (1 pt)
-    Predictive analysis (classification) results slides (1 pt)
-    Conclusion slide (1 pt)
-    Creativity applied to enhance the presentation beyond the given template (1 pt)
-    Inclusion of innovative insights (1 pt)
+## 👤 Author
+Marco Piersanti
